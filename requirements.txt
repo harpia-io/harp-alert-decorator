@@ -16,3 +16,4 @@ opentelemetry-instrumentation-fastapi==0.38b0
 opentelemetry-instrumentation-logging==0.38b0
 opentelemetry-instrumentation-requests==0.38b0
 opentelemetry-instrumentation-confluent-kafka==0.38b0
+opensearch-logger==1.2.3
