@@ -4,12 +4,13 @@ import os
 URL_PREFIX = os.getenv('URL_PREFIX', '/api/v1')
 SERVICE_NAMESPACE = os.getenv('SERVICE_NAMESPACE', 'dev')
 POD_NAME = os.getenv('POD_NAME', '')
+RUNNING_ON = os.getenv('RUNNING_ON', 'kubernetes')
 
 # Logging
 SERVICE_NAME = os.getenv('SERVICE_NAME', 'harp-alert-decorator')
 LOG_LEVEL = "DEBUG"
-LOKI_SERVER = os.getenv('LOKI_SERVER', '')
-LOKI_PORT = os.getenv('LOKI_PORT', 3100)
+OPENSEARCH_SERVER = os.getenv('OPENSEARCH_SERVER', 'opensearch-ingest-hl.opensearch.svc.cluster.local')
+OPENSEARCH_PORT = os.getenv('OPENSEARCH_PORT', 9200)
 ENVIRONMENT = os.getenv('ENVIRONMENT', 'dev')
 
 
