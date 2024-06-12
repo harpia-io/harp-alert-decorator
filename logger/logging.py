@@ -1,5 +1,5 @@
 import logging
-import harp_global_create_company.settings as settings
+import harp_alert_decorator.settings as settings
 from opentelemetry.instrumentation.logging import LoggingInstrumentor
 from fastapi.logger import logger as fastapi_logger
 from opensearch_logger import OpenSearchHandler
